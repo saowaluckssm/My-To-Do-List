@@ -1,7 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { useNavigate } from "react-router";
-// import AlertContext from "../../context/alert/alertContext";
-// import useInput from "../../context/alert/useInput";
+
 import useInput from "../../context/alert/AlertState";
 import AuthContext from "../../context/auth/authContext";
 
