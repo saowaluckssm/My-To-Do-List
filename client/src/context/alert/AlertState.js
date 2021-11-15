@@ -26,20 +26,7 @@ const AlertState = (props) => {
     dispatch({ type: RESET });
   };
 
-  // return (
-  //   <AlertContext.Provider
-  //     value={{
-  //       value: state.value,
-  //       isValid: valueIsValid,
-  //       hasError,
-  //       valueChangeHandler,
-  //       inputBlurHandler,
-  //       reset,
-  //     }}
-  //   >
-  //     {props.children}
-  //   </AlertContext.Provider>
-  // );
+
 
   return {
     value: state.value,
